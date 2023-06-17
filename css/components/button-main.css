@@ -1,0 +1,17 @@
+.button-main {
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #ED4D1B;
+    padding: 12px 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0 #1E1E1E;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.button-main:hover {
+    box-shadow: 2px 2px 0 #1E1E1E;
+}

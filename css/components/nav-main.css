@@ -1,0 +1,22 @@
+.nav-main {
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.nav-main ul li {
+    display: inline-block;
+    margin-right: 3.75rem;
+}
+
+ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-main a {
+    transition: all 0.2s;
+}
+
+.nav-main a:hover {
+    color: #ED4D1B;
+}

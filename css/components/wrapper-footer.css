@@ -1,0 +1,15 @@
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-footer .ttlFooter {
+    margin-bottom: 5%;
+}
+
+.wrapper-footer .descFooter {
+    width: 30%;
+}

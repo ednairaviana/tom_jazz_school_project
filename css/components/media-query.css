@@ -1,0 +1,101 @@
+@media (max-width: 800px) {
+    .banner-main {
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 25px;
+        padding: 0;
+    }
+
+    .banner-main .imgBanner {
+        width: 100%;
+    }
+
+    .banner-main .article {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .wrapper-cards {
+        flex-direction: column;
+        height: 160vh;
+        margin-bottom: 10%;
+    }
+    
+    .card-main {
+        width: 80%;
+        height: 23%;
+        padding: 0 10%;
+    }
+
+    .figure-main {
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .figure-main .poster {
+        align-self: flex-start;
+        width: 100%;
+        height: auto;
+    }
+
+    .figure-main .caption {
+        width: 90%;
+    }
+
+    .wrapper-footer {
+        height: 35vh;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .wrapper-footer .descFooter {
+        width: 100%;
+    }
+
+    .form-main {
+        width: 90%;
+    }
+
+    .form-main .button-main {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    html {
+        font-size: 11px;
+    }
+
+    body {
+        margin-top: 10vh;
+    }
+
+    .header-main  {
+        flex-direction: column;
+    }
+
+    .header-main .button-main {
+        display: none;
+        visibility: hidden;
+    }
+
+    .section-main {
+        height: auto;
+        padding: 6vh 0;
+    }
+
+    .section-main.section-main.scVh-1 {
+        height: auto;
+    }
+
+    .section-main.scVh-2 {
+        padding-top: 2vh;
+        height: auto;
+    }
+}
+
+@media (max-width: 300px) {
+    html {
+        font-size: 8px;
+    }
+}

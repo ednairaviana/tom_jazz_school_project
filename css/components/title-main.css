@@ -1,0 +1,33 @@
+.title-main {
+    font-size: 4em;
+}
+
+.-ttlOrange {
+    color: #ED4D1B;
+}
+
+.title-main.small {
+    font-size: 1.5rem;
+}
+
+.-ttlMedium {
+    font-size: 2.5rem;
+}
+
+.capTitle {
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.capTitle::after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #ED4D1B;
+    transition: all 0.3s;
+}
+
+.capTitle:hover::after {
+    width: 100%;
+}
