@@ -4,6 +4,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
+    align-self: start;
+
     background-color: #ED4D1B;
     padding: 0 3%;
     width: 23%;
@@ -13,7 +15,6 @@
 }
 
 .card-main .icon {
-    width: 25%;
     height: auto;
 }
 
@@ -25,11 +26,11 @@
 }
 
 .card-main .vector {
-    width: 20%;
+    width: auto;
     align-self: flex-end;
 }
 
 .card-main.scCard {
     background-color: #FF9A3C;
-    align-self: baseline;
+    align-self: end;
 }

@@ -17,6 +17,7 @@
 
     .wrapper-cards {
         flex-direction: column;
+        width: 80%;
         height: 160vh;
         margin-bottom: 10%;
     }
@@ -29,7 +30,9 @@
 
     .figure-main {
         flex-direction: column;
-        height: 70vh;
+        height: 55vh;
+        padding: 0;
+        padding-bottom: 20%;
     }
 
     .figure-main .poster {
@@ -43,7 +46,7 @@
     }
 
     .wrapper-footer {
-        height: 35vh;
+        height: 30vh;
         flex-direction: column;
         margin: 0 auto;
     }
